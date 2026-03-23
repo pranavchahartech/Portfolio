@@ -6,6 +6,14 @@
       "destination": "/api/index.js"
     },
     {
+      "source": "/certificates/(.*)",
+      "destination": "/frontend/dist/certificates/$1"
+    },
+    {
+      "source": "/assets/(.*)",
+      "destination": "/frontend/dist/assets/$1"
+    },
+    {
       "source": "/(.*)",
       "destination": "/frontend/dist/index.html"
     }
